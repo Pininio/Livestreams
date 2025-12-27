@@ -1,4 +1,1 @@
-1. STREAM_ID=$(curl -s 'https://www.skylinewebcams.com/en/webcam/united-arab-emirates/dubai/dubai/dubai-marina.html' | grep -oP 'livee\.m3u8\?a=\K[^"'"'"']+' | head -1)				
-mpv "https://hd-auth.skylinewebcams.com/live.m3u8?a=$STREAM_ID"	 2. Heningsvaer 3. CET
-1. STREAM_ID=$(curl -s 'https://www.skylinewebcams.com/en/webcam/australia/new-south-wales/sydney/sydney.html' | grep -oP 'livee\.m3u8\?a=\K[^"'"'"']+' | head -1)					
-mpv "https://hd-auth.skylinewebcams.com/live.m3u8?a=$STREAM_ID"	 2. Sydney 3. CET
+1. https://www.skylinewebcams.com/en/webcam/united-arab-emirates/dubai/dubai/dubai-marina.html	 2. Heningsvaer 3. CET
