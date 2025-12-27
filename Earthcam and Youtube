@@ -1,2 +1,1 @@
-1. STREAM_ID=$(curl -s 'https://www.skylinewebcams.com/en/webcam/united-arab-emirates/dubai/dubai/dubai-marina.html' | grep -oP 'livee\.m3u8\?a=\K[^"'"'"']+' | head -1)				
-mpv "https://hd-auth.skylinewebcams.com/live.m3u8?a=$STREAM_ID"	2. Hello 3. CET
+1. mpv "https://hd-auth.skylinewebcams.com/live.m3u8?a=$STREAM_ID" 2. Hello 3. CET
